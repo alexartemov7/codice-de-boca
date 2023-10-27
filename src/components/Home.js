@@ -36,7 +36,6 @@ export default function Home() {
 
     return (
         <>
-          <h2>I'm home component</h2>
           <button onClick={() => handleBtnClick()}>get data</button>
           {menuItems && menuItems.map((singleItem) => {
             console.log('singleItem ->', singleItem)
